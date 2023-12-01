@@ -1,0 +1,27 @@
+body {
+  background: #313133;
+}
+
+.classicButton {
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid white;
+  color : white;
+  transition: background 200ms, color 200ms;
+  text-decoration: none;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
+}
+
+.classicInput {
+  background: none;
+  border: 1px solid white;
+  outline: none;
+
+  &, &::placeholder {
+    color: white;
+  }
+}
